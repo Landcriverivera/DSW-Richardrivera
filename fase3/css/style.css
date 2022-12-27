@@ -124,6 +124,35 @@ body{
 .banner3 .texto_banner3 h1{
     font-size: 28px;
 }
+.banner4{
+    width: 70%;
+    position: relative;
+    height: 70vh;
+    background: url(../img/1031123260.jpg)no-repeat center center/cover;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.banner4 .texto_banner4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px;
+    width: 40%;
+    min-height: 20%;
+    border-radius: 20px;
+    background-color: rgba(0,0,0, 5);
+}
+.banner4 .texto_banner4 p,
+.banner4 .texto_banner4 h1{
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+.banner4 .texto_banner4 h1{
+    font-size: 28px;
+}
 /*Quieres somos*/
 .nosotros{
     padding: 10px 100px;
