@@ -25,68 +25,105 @@
     <li><a href="../fase3/autor.html">Autor</a></li> 
     </ul>
 </nav> 
-<form>
-    <div class="col-md-6">
-        <!-- (Introducción) -->
-    <div class="row mb-5">
-        <div class="col-md-12 text-center">
-          <h1>Información del usuario</h1>
-          <p class="mt-3"> Estimados, por medio del siguiente formulario, se realiza un formamulario de los diferentes temas tratados en la entorno web </p>
-        </div>
-        <!-- Formulario -->
-        <h4 class="mb-4">AUTORIZACIÓN TRATAMIENTO DE DATOS: </h4>
+     
+<div class="container p-3 mt-3">
     
-        
-            <div class="mb-3">
-              <label for="nya" class="form-label txt_negrita">Con el diligenciamiento de este formulario, autorizo de manera previa, para el tratamiento de los datos personales, esto con el fin de que recolecten, consoliden y traten los datos personales remitidos a través de las herramientas digitales,  en cumplimiento de las disposiciones legales conforme la Ley 1581 de 2012 y concordantes. </label>
-            </div>
-      
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-            <label class="form-check-label" for="exampleRadios1">
-              Si autorizo
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-            <label class="form-check-label" for="exampleRadios2">
-              No autorizo
-            </label>
-          </div>
-       
-          <div class="mb-3">
-            <label for="nya" class="form-label txt_negrita">Nombres y Apellidos</label>
-            <input type="text" class="form-control" id="nya" aria-describedby="nyaHelp" required>
-            <div id="nyaHelp" class="form-text">Ejemplo: Carlos Torres Rojas</div>
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label txt_negrita">Email</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
-            <div id="emailHelp" class="form-text">Ejemplo: miemail@mail.com</div>
-          </div>
-          <div class="mb-3">
-            <label for="asunto" class="form-label txt_negrita">Asunto</label>
-            <input type="text" class="form-control" id="asunto" aria-describedby="asuntoHelp" required>
-            <div id="asuntoHelp" class="form-text">Ejemplo: Solicitud de Compra</div>
-          </div>
-          <div class="mb-3">
-            <label for="mensaje" class="form-label txt_negrita">Mensaje</label>
-            <textarea class="form-control" id="mensaje" rows="3" required></textarea>
-          </div>
-          
-        
-      </div>
-       <select class="form-select" aria-label="Default select example">
-        <option selected>Open this select menu</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-        
-      </select>
-      
-      <button type="submit" class="btn btn-primary">Aceptar</button>
+   <form class="" action="#">
+    <div class="col-md-12 text-center">
+      <h1>Información del usuario</h1>
+      <p class="mt-3"> Estimados, por medio del siguiente formulario, se realiza un formamulario de los diferentes temas tratados en la entorno web </p>
+    </div>
+    <!-- Formulario -->
+    <h4 class="mb-4">AUTORIZACIÓN TRATAMIENTO DE DATOS: </h4>
+   
+        <div class="mb-3">
 
-</form>
+          <label for="nya" class="form-label txt_negrita">Con el diligenciamiento de este formulario, autorizo de manera previa, para el tratamiento de los datos personales, esto con el fin de que recolecten, consoliden y traten los datos personales remitidos a través de las herramientas digitales,  en cumplimiento de las disposiciones legales conforme la Ley 1581 de 2012 y concordantes. </label>
+        </div>
+  
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+        <label class="form-check-label" for="exampleRadios1">
+          Si autorizo
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+        <label class="form-check-label" for="exampleRadios2">
+          No autorizo
+        </label>
+        </div>
+       <br>
+     <label class="form-label">Nombres</label>
+     <input class="form-control" type="text" required>
+     <div class="valid-feedback">Campo valido</div>
+     <div class="invalid-feedback">Campo invalido</div>
+     <label class="form-label">Apellidos</label>
+     <input class="form-control" type="text" required>
+     <label class="form-label">Cedula</label>
+     <input class="form-control" type="text" required>
+     <div class="invalid-feedback">Campo invalido</div>
+     <div class="valid-feedback">Campo valido</div>
+      
+          <label class="form-label">Introduzaca el correo y sellecione el dominio de correo</label>
+     <div class="input-group">
+        <input class="form-control" type="text">
+        <span class="input-group-text"required></span>
+        <select class="form-select">
+          <option>gmail</option> 
+          <option>hotmail</option>
+          <option>oulook</option>
+        </select>
+     </div>
+     <label class="form-label">¿Cómo se inserta un comentario en HTML?</label>
+     <br>
+     <label class="form-label">Selecciones un item</label>
+     <div class="input-group">
+      <div class="input-group-text">
+        <input type="radio">
+      </div>
+      <input class="form-control" type="text" placeholder="Los comentarios en HTML empiezan con <!-y terminan con ->">
+      </div>
+      <div class="input-group">
+      <div class="input-group-text">
+        <input type="radio">
+      </div>
+      <input class="form-control" type="text" placeholder="Los comentarios comienzan por el <body> ">
+      </div>
+      <div class="input-group">
+        <div class="input-group-text">
+          <input type="radio">
+        </div>
+        <input class="form-control" type="text" placeholder="Los comentarios comienzan por el <body> ">
+        </div>
+      <label class="form-label">¿Qué son las etiquetas?</label>
+       <div class="form-floating">
+            <input class="form-control" type="text" placeholder="Selecciona item" required>
+          <label class="form-label">Introduzca la respuesta</label>
+       </div>
+       <br>
+       <label for="exampleDataList" class="form-label">¿Qué etiqueta define un salto de línea?</label>
+       <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+       <datalist id="datalistOptions">
+         <option value="br">
+         <option value="break">
+         <option value="linebreak">
+         <option value="p">
+         <option value="toda las anteriores">
+       </datalist>
+      <br>
+     <p>Acepto los terminos</p>
+     <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-label" type="checkbox">
+        </label>
+        <button class="btn btn-primary">Aceptar</button>
+     </div>
+   </form>
+</div>
+
+
+<div>
     <header>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/mlbUb1_HV-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </header>
